@@ -14,7 +14,7 @@ function App() {
   const [data, setData] = useState({})
   const [location, setLocation] = useState('')
   const [loaded, setLoaded] = useState(false)
-  const API_KEY = '38618cbcf815d294e32f825715db2765'
+  const API_KEY = 'add_your_own'
   Moment.globalFormat = 'H:mm:ss';
 
   useEffect(() => {
